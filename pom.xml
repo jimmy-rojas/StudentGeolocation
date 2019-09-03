@@ -6,7 +6,7 @@
 
   <groupId>com.organization.student_geolocation</groupId>
   <artifactId>StudentGeolocation</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0.0-SNAPSHOT</version>
 
   <dependencies>
     <!-- https://mvnrepository.com/artifact/com.google.code.gson/gson -->
