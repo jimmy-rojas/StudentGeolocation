@@ -6,6 +6,12 @@ public class Student {
   private double latitude;
   private double longitude;
 
+  public Student(String name, double latitude, double longitude) {
+    this.name = name;
+    this.latitude = latitude;
+    this.longitude = longitude;
+  }
+
   public String getName() {
     return name;
   }

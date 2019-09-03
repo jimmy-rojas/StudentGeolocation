@@ -22,19 +22,5 @@ public class ClassroomUtil {
           }
         )
         .collect(Collectors.toList());
-
-    //TODO: options to evaluate, need further review
-    /*
-    return classroomList.stream()
-        .distinct()
-        .flatMap(classroom -> studentList.stream()
-            .distinct()
-            .filter(student -> classroom.isIn(student))
-        ).collect(Collectors.toList());
-    return new ArrayList<>(classroomList.stream()
-        .flatMap(classroom -> studentList.stream()
-            .filter(student -> classroom.isIn(student))
-        ).collect(Collectors.toSet()));
-    */
   }
 }
