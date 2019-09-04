@@ -65,4 +65,9 @@ public class ClassroomUtilTest {
     assertTrue(result.containsAll(expectedStudentList));
   }
 
+  @Test (expected = IllegalArgumentException.class)
+  public void scenario3_secure_NPE() {
+    ClassroomUtil.studentsInClasses(null, null);
+  }
+
 }

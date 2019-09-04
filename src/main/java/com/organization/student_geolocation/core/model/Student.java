@@ -1,11 +1,22 @@
 package com.organization.student_geolocation.core.model;
 
+/**
+ * Student is an student model
+ *
+ */
 public class Student {
 
   private String name;
   private double latitude;
   private double longitude;
 
+  /**
+   * Default constructor
+   *
+   * @param name a string value, the student's name
+   * @param latitude a double value, the student's latitude
+   * @param longitude a double value, the student's longitude
+   */
   public Student(String name, double latitude, double longitude) {
     this.name = name;
     this.latitude = latitude;

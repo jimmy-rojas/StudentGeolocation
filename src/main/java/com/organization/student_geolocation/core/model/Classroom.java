@@ -4,6 +4,12 @@ import com.javadocmd.simplelatlng.LatLng;
 import com.javadocmd.simplelatlng.util.LengthUnit;
 import com.javadocmd.simplelatlng.window.RectangularWindow;
 
+/**
+ * Classroom is a classroom model
+ *
+ * This classroom has a square shape of 20m X 20m
+ *
+ */
 public class Classroom {
 
   private static final int SHAPE_SIZE = 20 / 2;
@@ -11,6 +17,13 @@ public class Classroom {
   private double latitude;
   private double longitude;
 
+  /**
+   * Default constructor
+   *
+   * @param name a string value, the classroom's name
+   * @param latitude a double value, the classroom's latitude
+   * @param longitude a double value, the classroom's longitude
+   */
   public Classroom(String name, double latitude, double longitude) {
     this.name = name;
     this.latitude = latitude;
