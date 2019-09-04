@@ -16,3 +16,9 @@ To execute look for the artifact in the target folder
 
 ### Testing ###
 See in console the test results 
+
+### Library Reference ###
+
+-----------------
+This implementation uses third party libraries:
+- Library [SimpleLatLng](https://github.com/JavadocMD/simplelatlng)
